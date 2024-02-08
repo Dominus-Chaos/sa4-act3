@@ -11,3 +11,7 @@ while True:
         break
     else:
         print(f"Sorry! Try Again.")
+        if int(guess)>number:
+            print("Your guess was too high")
+        else:
+            print("Your guess was to low")
